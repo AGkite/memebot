@@ -208,6 +208,7 @@ export function ScannerView({
               </Button>
               <Button
                 variant="outline"
+                nativeButton={false}
                 render={
                   <a
                     href={`https://www.geckoterminal.com/${selected.network}/pools/${selected.poolAddress}`}
